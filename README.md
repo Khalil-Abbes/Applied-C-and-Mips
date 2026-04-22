@@ -1,6 +1,6 @@
 # Programming 2
 
-**Course:** Programming 2, Saarland University
+**Course:** Programming 2, Saarland University  
 **Instructor:** Prof. Dr.-Ing. Holger Hermanns
 
 ## Overview
