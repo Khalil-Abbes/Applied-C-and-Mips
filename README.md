@@ -31,7 +31,7 @@ This project focused on implementing an edge detection algorithm for images in C
 
 ---
 
-### [Project 3: Page Rank](./PageRank/)
+### [Project 3: PageRank](./PageRank/)
 
 This project involved parsing directed graphs (representing websites and hyperlinks) and computing PageRank scores using C.
 
