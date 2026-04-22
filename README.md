@@ -1,3 +1,7 @@
+# Programming 2
+
+**Course:** Programming 2, Summer Term 2024, Saarland University  
+
 ## Overview
 This repository contains my submissions for the bi-weekly mini-projects assigned during the Programming 2 course. The projects cover a range of low-level and systems programming concepts, including assembly programming, memory management, image processing, and graph algorithms in C and MIPS assembly. 
 
@@ -5,7 +9,7 @@ Below is a summary of the projects and my graded contributions to each.
 
 ---
 
-### [Project 1: Rock Paper Scissors](./rock_paper_scissors/)
+### [Project 1: Rock Paper Scissors](./rock%20paper%20scissors/)
 
 This project involved writing MIPS assembly code to simulate the game of Rock Paper Scissors, where the computer plays against itself using pseudorandom number generation. 
 
@@ -16,7 +20,7 @@ This project involved writing MIPS assembly code to simulate the game of Rock Pa
 
 ---
 
-### [Project 2: Edge Detection](./Edge_Detection/)
+### [Project 2: Edge Detection](./Edge%20Detection/)
 
 This project focused on implementing an edge detection algorithm for images in C, utilizing discrete derivatives and image convolution.
 
@@ -29,7 +33,7 @@ This project focused on implementing an edge detection algorithm for images in C
 
 ---
 
-### [Project 3: PageRank](./Page_Rank/)
+### [Project 3: PageRank](./Page%20Rank/)
 
 This project involved parsing directed graphs (representing websites and hyperlinks) and computing PageRank scores using C.
 
