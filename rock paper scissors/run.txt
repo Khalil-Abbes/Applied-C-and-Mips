@@ -1,0 +1,1 @@
+python3 run_tests --marsPath java -jar Mars4_5.jar
