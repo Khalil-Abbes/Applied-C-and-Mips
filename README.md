@@ -5,7 +5,7 @@ Below is a summary of the projects and my graded contributions to each.
 
 ---
 
-### [Project 1: Rock Paper Scissors](./projects/rock_paper_scissors/)
+### [Project 1: Rock Paper Scissors](./rock_paper_scissors/)
 
 This project involved writing MIPS assembly code to simulate the game of Rock Paper Scissors, where the computer plays against itself using pseudorandom number generation. 
 
@@ -16,7 +16,7 @@ This project involved writing MIPS assembly code to simulate the game of Rock Pa
 
 ---
 
-### [Project 2: Edge Detection](./projects/Edge_Detection/)
+### [Project 2: Edge Detection](./Edge_Detection/)
 
 This project focused on implementing an edge detection algorithm for images in C, utilizing discrete derivatives and image convolution.
 
@@ -29,7 +29,7 @@ This project focused on implementing an edge detection algorithm for images in C
 
 ---
 
-### [Project 3: PageRank](./projects/Page_Rank/)
+### [Project 3: PageRank](./Page_Rank/)
 
 This project involved parsing directed graphs (representing websites and hyperlinks) and computing PageRank scores using C.
 
