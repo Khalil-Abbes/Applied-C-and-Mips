@@ -1,24 +1,24 @@
-# Prog2 Project2 MinGW Patch
+# Project 2: Edge Detection
 
-We want to apologize for not initially delivering the project working with MinGW.
+## Project Context
+This repository contains my submission for the second mini-project in the Programming 2 course. The project focuses on image processing, memory management, and mathematical operations in C.
 
-Please install this patch to enable local building and testing on your machine.
+The core objective was to implement an edge detection algorithm that reads an image, applies a Gaussian blur, computes discrete derivatives using Sobel kernels, and outputs a high-contrast image highlighting borders between homogeneous areas.
 
-**If you install this patch, your project won't build on WSL anymore.**
-This will cause little struggle if you plan to switch to WSL later, as you will have to reset the files to the original ones before it will work there again.
+## Tech Stack
+* C (C11 Standard)
+* GCC, Make
+* PGM Image Format parsing
 
-## Installing this patch
+## My Contributions
 
-This patch consists of 3 files:
-
-- src/argparser.c
-- test/config.py
-- Makefile
-
-You'll just need to copy these files into your project and overwrite the existing files there.
-
-## Details
-
-- `argparser.c` contains a fix for missing `<err.h>` in windows.
-- `Makefile` was modified to work with Powershell.
-- `config.py` was modified to remove colored and formatted output strings from the tester as these won't be displayed properly on (most) Windows terminals.
+* **Matrix Convolution:** 
+  Implemented a robust 2D convolution function (`convolve`) using a mirror edge-handling strategy. This was used to apply Gaussian (blur) and Sobel (derivative) kernels to the image.
+* **Gradient Computation & Thresholding:** 
+  Implemented functions to calculate the magnitude of gradient vectors using partial derivatives ($D_x$ and $D_y$) and applied gray-scale thresholds to isolate prominent edges.
+* **Image Scaling:** 
+  Scaled intermediate gray-scale computations back to the standard $0–255$ pixel value range to ensure valid image output.
+* **File I/O and Memory Management:** 
+  Handled dynamic memory allocation for 2D images and wrote robust functions to read/write `.pgm` (portable graymap) files, including robust error detection for corrupted files, invalid headers, or missing paths.
+* **Algorithm Pipeline (`main`):** 
+  Combined all mathematical and memory operations into a cohesive pipeline inside the `main` function, managing intermediate memory allocations and ensuring a leak-free program.
