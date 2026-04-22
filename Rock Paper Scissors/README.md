@@ -1,6 +1,4 @@
-# Project 1: Rock Paper Scissors
-
-**Course:** Programming 2, Saarland University  
+# Project 1: Rock Paper Scissors 
 
 ## Project Context
 This repository contains my submission for the first mini-project in the Programming 2 course. The project focuses on low-level programming and pseudorandom number generation using MIPS assembly. 
