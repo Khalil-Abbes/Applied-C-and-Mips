@@ -1,7 +1,7 @@
 # Project 1: Rock Paper Scissors 
 
 ## Project Context
-This repository contains my submission for the first mini-project in the Programming 2 course. The project focuses on low-level programming and pseudorandom number generation using MIPS assembly. 
+The project focuses on low-level programming and pseudorandom number generation using MIPS assembly. 
 
 The core objective was to implement a simulation of the game Rock Paper Scissors, where the computer plays against itself by generating random moves and determining the winner.
 
