@@ -1,7 +1,7 @@
 # Project 3: PageRank
 
 ## Project Context
-This repository contains my submission for the third mini-project in the Programming 2 course. The project focuses on graph theory, file parsing, and probabilistic algorithms in C.
+The project focuses on graph theory, file parsing, and probabilistic algorithms in C.
 
 The core objective was to analyze directed graphs (representing websites and hyperlinks) and compute PageRank scores to determine the relevance of each node in the network.
 
