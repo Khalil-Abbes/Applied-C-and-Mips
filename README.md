@@ -1,10 +1,7 @@
-# Programming 2
-
-**Course:** Programming 2, Saarland University  
-**Instructor:** Prof. Dr.-Ing. Holger Hermanns
+# Applied-C-and-Mips
 
 ## Overview
-This repository contains my submissions for the bi-weekly mini-projects assigned during the Programming 2 course. The projects cover a range of low-level and systems programming concepts, including assembly programming, memory management, image processing, and graph algorithms in C and MIPS assembly. 
+The projects cover a range of low-level and systems programming concepts, including assembly programming, memory management, image processing, and graph algorithms in C and MIPS assembly. 
 
 Below is a summary of the projects and my contributions to each.
 
