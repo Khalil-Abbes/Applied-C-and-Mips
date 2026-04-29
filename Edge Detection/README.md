@@ -1,7 +1,7 @@
 # Project 2: Edge Detection
 
 ## Project Context
-This repository contains my submission for the second mini-project in the Programming 2 course. The project focuses on image processing, memory management, and mathematical operations in C.
+The project focuses on image processing, memory management, and mathematical operations in C.
 
 The core objective was to implement an edge detection algorithm that reads an image, applies a Gaussian blur, computes discrete derivatives using Sobel kernels, and outputs a high-contrast image highlighting borders between homogeneous areas.
 
